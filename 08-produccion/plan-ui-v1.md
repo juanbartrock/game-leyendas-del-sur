@@ -86,18 +86,26 @@ MainMenu
 
 **Propósito:** primera impresión del juego. Debe comunicar la estética inmediatamente.
 
+**Referencia visual:** Kingdom Hearts Birth by Sleep — logo + menú a la izquierda, personajes grandes a la derecha sangrando al borde.
+
 **Elementos:**
-- Fondo: tablero/mesa de cuero oscuro con textura, velas o luz ambiental
-- Logo **LEYENDAS DEL SUR** centrado, grande, tipografía 3D metálica plateada (como el dorso)
-- Subtítulo: *"Refugio del Sur"* en serif dorado pequeño
-- Botones (dos únicos):
-  - `[JUGAR]` — botón principal, tipografía serif dorada sobre fondo oscuro con borde ornamental
-  - `[SALIR]` — botón secundario, más discreto
-- Versión del juego discreta en esquina inferior (pequeño, semitransparente)
+- **Fondo:** cuero oscuro envejecido con textura, luz ambiental muy tenue
+- **Izquierda (arriba):** Logo **LEYENDAS DEL SUR** en tipografía 3D metálica plateada (idéntico al dorso del mazo)
+- **Izquierda (abajo):** Menú vertical con opciones:
+  - `JUGAR` — ítem activo con highlight turquesa/dorado
+  - `OPCIONES`
+  - `SALIR`
+- **Derecha (sangra al borde):** Los 6 Forasteros superpuestos en perspectiva — cartas en formato retrato, ligeramente inclinadas, la del frente más grande. El arte ya existe en alta resolución.
+- Versión discreta en esquina inferior izquierda
+
+> ✅ **Arte disponible:** los 6 Forasteros ya tienen card.png en alta calidad,
+> consistente con el nuevo estilo visual. No hay que generar nada nuevo para esta pantalla.
+> Ruta: `/opt/desarrollo/leyendas-del-sur/assets/art/forasteros/`
 
 **Animaciones:**
 - Fade in del logo al cargar
-- Partículas de luz/brasa muy sutiles en el fondo (opcional, no para MVP)
+- Las cartas de Forastero flotan levemente (Tween, movimiento suave en Y)
+- Ítem de menú seleccionado: underline o barra lateral dorada
 
 ---
 
