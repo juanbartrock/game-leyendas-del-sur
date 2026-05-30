@@ -1,0 +1,72 @@
+﻿LEYENDAS DEL SUR - ESTRUCTURA DE COSTOS
+Fecha: Mayo 2026
+""
+=== 1. COMPONENTES DEL PRODUCTO ===
+Componente,Cantidad,Tamaño/Formato,Notas
+Cartas Forasteros,6,Tarot 70x120mm,Frente y dorso
+Cartas Acción,45,Poker 63x88mm,Frente y dorso
+Cartas Dones,18,Mini cuadrado 56x56mm,Frente y dorso
+Caja 2 piezas,1,A definir,Impresión full color
+Reglamento,1,A definir,Libreto/plegado
+Stickers,A definir,A definir,
+Póster,1,A definir (A3/A2),Plegado
+Infografía,1,A definir,Hoja/tarjeta
+Figura,1,A definir,Material a definir
+""
+=== 2. COSTOS DIRECTOS DE PRODUCCION (est. China) ===
+Rubro,500 uds,1.000 uds,3.000 uds,Notas
+Cartas (3 mazos),"$3,000-$4,000","$4,500-$6,000","$8,000-$12,000",Forasteros Tarot + Acción Poker + Dones mini
+Caja 2 piezas,"$800-$1,200","$1,200-$1,800","$2,500-$4,000",Impresión + forrado
+Reglamento,$300-$500,$500-$800,"$1,000-$1,500",Incluye plegado/encuadernado
+Stickers + Poster + Infografía,$300-$500,$400-$700,"$800-$1,200",Póster plegado
+Figura,"$500-$2,000","$1,000-$3,000","$2,000-$6,000",Depende del material (resina/plástico/madera)
+Setup / troqueles + planchas,$500-$800,$500-$800,$500-$800,"One-time, 3 troqueles diferentes"
+Subtotal producción,"$5,400-$9,000","$8,100-$13,100","$14,800-$25,500",
+""
+=== 3. LOGISTICA ===
+Rubro,500 uds,1.000 uds,3.000 uds,Notas
+Flete marítimo (China→Arg),"$1,200-$2,000","$2,000-$3,500","$3,500-$6,000",Contenedor compartido/completo
+Subtotal CIF (puesto Argentina),"$6,600-$11,000","$10,100-$16,600","$18,300-$31,500",Prod + Flete
+""
+=== 4. IMPUESTOS DE IMPORTACION (Argentina) ===
+Concepto,% estimado,500 uds,1.000 uds,3.000 uds,Notas
+DAI (Derecho de Importación),~35%,$2310-$3850,$3535-$5810,$6405-$11025,Sobre valor CIF
+IVA,21%,$1386-$2310,$2121-$3486,$3843-$6615,Sobre CIF + DAI
+Anticipo Ganancias / IIBB,~5-8%,Varía,Varía,Varía,Depende de régimen
+Despachante de aduana,Fijo,$400-$700,$400-$700,$400-$700,Honorarios fijos
+Subtotal impuestos + despachante,,"$3,000-$5,000","$4,500-$8,000","$8,000-$15,000",
+""
+=== 5. COSTO FINAL ESTIMADO POR UNIDAD ===
+Volumen,Costo x unidad (USD),Notas
+500 uds,$15 - $27,Incluye prod + flete + impuestos
+1.000 uds,$13 - $22,Incluye prod + flete + impuestos
+3.000 uds,$9 - $16,Incluye prod + flete + impuestos
+""
+=== 6. OTROS COSTOS NO INCLUIDOS EN PRODUCCION ===
+Rubro,Estimado (USD),Tipo,Notas
+Diseño (ilustraciones + layout),"$2,000 - $5,000",One-time,69 ilustraciones frontales + 3 dorsos + reglamento + caja
+Publicidad (Meta + Adfound),"$1,000 - $3,000",Variable,Ads durante campaña
+Video + fotografía campaña,"$500 - $1,500",One-time,Para página de Gamefound
+Embalaje para distribución,$0.50 - $1.50 x ud,Unitario,Caja corrugada + burbuja + cinta
+Envío a backers (Argentina),$5 - $15 x ud,Unitario,Correo Argentino / Andreani. Transferible al backer
+Merma / reposiciones (3-5%),3-5% del total,%,"Cartas defectuosas, cajas rotas en tránsito"
+Buffer cambiario / contingencias,10-15%,%,Por si se mueve el dólar
+Comisión Gamefound,~8%,%,5% plataforma + 3% procesamiento
+Prototipado / samples,$200 - $500,One-time,Prueba de impresión antes de producción
+""
+=== 7. PRICING SUGERIDO PARA GAMEFOUND ===
+Concepto,Valor
+Costo por unidad (1.000 uds),$13 - $22 USD
+Comisión Gamefound (~8%),$2 - $3 USD
+Envío a backer,$5 - $15 USD (se puede cobrar aparte)
+Margen deseado (2x - 3x),$26 - $66 USD
+Precio sugerido al backer,$35 - $45 USD
+"Precio en pesos (blue ~$1,200)","$42,000 - $54,000 ARS"
+""
+=== 8. FABRICANTES SUGERIDOS ===
+Empresa,Ubicación,Contacto
+Hero Time,China,herotime1.com
+WinGo Games,China,wingogames.com
+PrintNinja,China,printninja.com
+Imprenta Commisso,Argentina (Ramos Mejía),+54 9 11 5879-5927 / presupuestos@commissoig.com.ar
+Pinbro Games,España,pinbrogames.com

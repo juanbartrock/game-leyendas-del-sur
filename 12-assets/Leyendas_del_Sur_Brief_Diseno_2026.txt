@@ -1,0 +1,593 @@
+﻿Leyendas del Sur — Brief de Diseño · 2026
+LEYENDAS DEL SUR
+Refugio del Sur · MVP v1.0
+Brief de Diseño · Mayo 2026
+Propósito de este documento
+Este documento es la referencia completa de diseño para el mazo de cartas de Leyendas del Sur. Contiene la especificación visual, los textos de cada carta y los prompts de generación de imágenes listos para usar en Nano Banana. Un diseñador puede trabajar directamente desde este documento sin necesidad de información adicional.
+Herramientas de producción: Canva (diseño de cartas) · Nano Banana (generación de ilustraciones).
+
+
+________________
+
+
+1. Estética general del proyecto
+El juego adopta una estética Urban Noir con identidad cultural argentina. El tono visual es oscuro, denso y sofisticado — no decorativo. Cada carta es un homenaje al arte argentino.
+
+
+1.1 Paleta base
+  Negro mate    #0E0E0E  — fondo principal
+  Gris carbón    #1C1C1F  — superficies secundarias
+  Rojo sangre    #A01821  — acento principal, marco Ciudad
+  Blanco hueso    #F5F0E8  — texto principal
+
+
+1.2 Tipografía
+Títulos: Serif decorada estilo western/letterpress (familia a confirmar con licencia)
+Datos: Sans humanista legible a tamaño pequeño (familia a confirmar con licencia)
+
+
+1.3 Tono visual
+"Sabio, poderoso y profundo. Un guía soberano que invita a reclamar lo que es propio."
+Las ilustraciones son el corazón del juego. Cada personaje de acción rinde homenaje a un artista argentino diferente. Las cartas de Don comparten un estilo unificado. El color del marco identifica el tipo de carta de un vistazo.
+________________
+
+
+2. Anatomía de las cartas
+2.1 Carta de Acción
+Formato vertical · Ratio 2:3 · Esquinas redondeadas
+
+
+Zona
+	Contenido
+	Marco de color
+	Identifica el tipo de carta (ver sistema de colores sección 3)
+	Banner superior izq.
+	LEYENDAS DEL SUR (pequeño) + Nombre de la carta (grande)
+	Número
+	Esquina superior derecha — numeración dentro del tipo
+	Ilustración
+	Bloque central — generada en Nano Banana según prompt de este documento
+	Sección pergamino
+	Flavor text en itálica + separador + efecto mecánico. El timing especial va en negrita.
+	Footer
+	Créditos / año discretos en gris pequeño
+	
+
+2.2 Carta de Don
+Formato cuadrado · Ratio 1:1 · Esquinas muy redondeadas · Tamaño mini (la más pequeña del juego)
+
+
+Zona
+	Contenido
+	Marco
+	Bandera argentina: franja celeste (#75AADB) en los 4 lados — fina
+	Franja superior
+	Nombre del Don centrado en blanco sobre celeste
+	Franja izquierda
+	Sol de Mayo ☀️ centrado
+	Franja derecha
+	Ícono del Don (crimson #8B1C1C con borde plateado)
+	Centro
+	Ilustración Aizenberg — 3 versiones distintas por cada Don
+	Franja inferior
+	LEYENDAS DEL SUR centrado en blanco sobre celeste
+	________________
+
+
+3. Sistema de colores del mazo
+El color del marco identifica el tipo de carta a simple vista. No hay texto de tipo — el color lo dice todo.
+
+
+Tipo de carta
+	Color marco
+	Copias
+	Timing / nota
+	Personajes de la Ciudad
+	Rojo #A01821
+	×3 por carta
+	Se juega en tu turno
+	Faros
+	Cyan #00B4D8
+	×2 por carta
+	Se juega en tu turno
+	Suerte normal
+	Amarillo #F5C842
+	Variable
+	Se juega en tu turno
+	El Cóndor (Reactiva)
+	Verde #39D353
+	×2
+	CUALQUIER MOMENTO — incluso fuera de tu turno
+	El Pombero (Auto)
+	Violeta #7B2FBE
+	×1
+	AUTOMÁTICO al robarlo — se resuelve sin acción del jugador
+	Cartas de Don
+	Bandera arg. #75AADB
+	×3 por Don (18 total)
+	Representan el nivel de cada habilidad del jugador — formato cuadrado
+	________________
+
+
+4. Mazo de Acción — Personajes de la Ciudad
+9 personajes × 3 copias = 27 cartas · Marco rojo #A01821 · Cada carta rinde homenaje a un artista argentino diferente.
+
+
+01. Kiosquero Oráculo
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Rojo #A01821
+	×3
+	Tu turno
+	Alberto Breccia
+	
+
+Homenaje artístico: Expresionismo oscuro, urban noir, caras con peso histórico. El kiosquero como oráculo del barrio encuentra su voz en el Breccia de Mort Cinder.
+Flavor text: "Preguntá lo que quieras. La respuesta siempre tiene precio."
+Efecto: Robás 1 Don a 2 jugadores a tu elección. Pagás 1 Don tuyo al centro.
+Prompt Nano Banana:
+Argentine comic book art in the style of Alberto Breccia, expressionist ink illustration, high contrast acrylics and mixed textures, deeply expressive weathered face, heavy black shadows, raw visceral linework. A middle-aged Argentine man behind a cramped Buenos Aires corner kiosk stall at night. He wears a worn faded plaid flannel shirt — casual, lived-in, no tie, no jacket, authentically working-class porteno. He leans forward on the counter pointing a knowing finger directly at the viewer — not scary, just the quiet smile of someone who knows too much. Thick reading glasses. Towering walls of colorful Argentine magazines and newspapers surrounding him. A single bare hanging bulb above casts harsh upward shadows on his weathered face. Dominant colors: deep olive green, dirty yellow, shadow black, colorful magazine covers in background. Tight portrait composition, face and upper body dominant, vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+02. Trovador del Andén
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Rojo #A01821
+	×3
+	Tu turno
+	Marta Minujín
+	
+
+Homenaje artístico: Pop art argentino, happenings, color explosivo y teatral. La energía participativa de Minujín captura al showman del Subte mejor que ningún otro artista.
+Flavor text: "Dos extraños. Una canción. Ya nada es lo mismo."
+Efecto: Obligás a 2 jugadores a intercambiar 1 Don entre ellos.
+Prompt Nano Banana:
+Argentine pop art illustration in the style of Marta Minujin — explosive saturated colors, bold graphic outlines, happenings energy, psychedelic festive Buenos Aires spirit, flat color fields with graphic punch. A young Argentine man in his mid-20s performing with total theatrical showman energy on a Buenos Aires Subte platform. He wears a hoodie, slim jeans, sneakers. He plays acoustic guitar with his whole body, leaning into the audience, one foot raised on his guitar case, mouth wide open mid-song, eyes locked on the crowd with magnetic charisma. The platform behind him erupts in electric color — neon pink, vivid yellow, turquoise, hot red. Bold flat color areas, graphic pop sensibility, total sensory overload. Dominant colors: electric pink, vivid yellow, turquoise blue, hot red. Tight portrait composition, face and upper body dominant, vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+03. Parrillero Final
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Rojo #A01821
+	×3
+	Tu turno
+	Roberto Fontanarrosa
+	
+
+Homenaje artístico: El asado es el territorio sagrado de Fontanarrosa. Su trazo bold y directo, y la caricatura con dignidad, hacen del Parrillero un sacerdote soberano.
+Flavor text: "El fuego iguala. El humo bendice. El asador decide."
+Efecto: Todos los jugadores devuelven 1 Don al centro. Luego cada jugador pasa 1 Don al jugador siguiente.
+Prompt Nano Banana:
+Argentine graphic humor illustration in the style of Roberto Fontanarrosa — bold confident ink linework, strong clear outlines, expressive caricature with dignity, earthy warm palette, the everyday elevated to the epic. A massive powerful Argentine asador standing before a huge blazing parrilla grill. He wears a heavily stained canvas apron over a worn undershirt, grips giant asador tongs in one raised fist like a scepter. Fire and orange embers illuminate his face from below — a face of absolute authority and gruff pride. Thick smoke billows behind him. His expression: this is sacred ground and he is its priest. Not scary — sovereign. Dominant colors: deep orange fire, warm amber, charcoal black smoke, earthy browns. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+________________
+
+
+04. Piba del Potrero
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Rojo #A01821
+	×3
+	Tu turno
+	Antonio Berni
+	
+
+Homenaje artístico: La serie Juanito Laguna de Berni — collage con materiales encontrados, realismo social, juventud urbana de los márgenes tratada con dignidad absoluta.
+Flavor text: "Te miro. Ya perdiste. Y encima queres que te vuelva a mirar."
+Efecto: Robas 1 Don. Un jugador 'enamorado' que vos elegis toma 1 carta de tu mano.
+Prompt Nano Banana:
+Argentine social realist illustration in the style of Antonio Berni — rich collage textures layered with found materials, newspaper scraps, metal fragments, worn fabric embedded in paint, warm earthy tones with vivid accents, dignified portrayal of urban youth from the margins. A sharp-eyed fearless young Argentine woman from the potrero. She holds a worn deflated soccer ball under one arm, chin raised, staring directly at the viewer with absolute confidence. She wears worn tracksuit pants, a faded t-shirt, old sneakers. Behind her: crumbling brick walls, broken concrete, a chain-link fence rendered in layered collage textures. Twilight sky. She owns this ground completely. Dominant colors: warm ochre, raw sienna, brick red, earthy brown with sharp electric blue accent. Tight portrait composition, face and upper body dominant, vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+05. Abuela del Tiempo
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Rojo #A01821
+	×3
+	Tu turno
+	Quino
+	
+
+Homenaje artístico: La mirada de Quino sobre el tiempo, las mujeres y la sociedad argentina. La línea clara cargada de significado y lo sobrenatural tratado con total normalidad.
+Flavor text: "Al nene no le toca nadie. El que lo tiene, se las ve con ella."
+Efecto: Un jugador 'nieto' que vos elegis toma 1 Don del centro. Vos y el nieto son inmunes durante 1 ronda.
+Prompt Nano Banana:
+Argentine humanist graphic illustration in the style of Quino — clean expressive linework, simple yet deeply loaded gestures, warm restrained palette, figures of quiet authority, humor and weight in equal measure. An imperious ancient Argentine grandmother — silver-white hair pulled back in a severe bun, a dark bata de casa, sturdy shoes. She stands on a Buenos Aires cobblestone sidewalk, utterly still. Her arms are extended, palms open, and pale gold light pours from her hands as clock faces dissolve around her — rendered with Quino's precise ironic clarity, as if this is the most natural thing in the world. A stopped colectivo blurred behind her. Her expression: serene, knowing, completely unsurprised. Dominant colors: warm gray, pale gold, dusty blue, soft shadow. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+06. Colectivero Dimensional
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Rojo #A01821
+	×3
+	Tu turno
+	Quinquela Martin
+	
+
+Homenaje artístico: La Boca y el Riachuelo, el obrero como heroe, impasto grueso y denso. El colectivo como embarcacion urbana — el chofer como heroe obrero que cruza dimensiones.
+Flavor text: "Hay un colectivo para cada destino. Hasta para los que creias imposibles."
+Efecto: Completas un Don que tenes en 0: tomas sus 3 cartas desde las pilas centrales. Pages 1 Don al centro.
+Prompt Nano Banana:
+Argentine expressionist oil painting in the style of Benito Quinquela Martin — thick heavy impasto brushstrokes, dense saturated industrial palette, working-class figures as heroes, strong silhouettes emerging from smoke and haze. A veteran Argentine colectivo driver gripping a massive steering wheel — he wears the classic driver's short-sleeved uniform shirt, a worn driver's cap. His jaw is set, eyes fixed forward, a figure of absolute working-class authority. Through the cracked windshield behind him: impossible dimensions bleed through — a starfield, a flooded Buenos Aires, another time — rendered in dense orange and red impasto strokes, smoke and vapor swallowing the impossible. Bold geometric red and yellow colectivo stripes. He drives through all realities without blinking. Dominant colors: deep orange, vivid red, industrial black smoke, saturated cobalt blue, dense yellow. Tight portrait composition, face and upper body dominant, vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+________________
+
+
+07. Bruja del Conurbano
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Rojo #A01821
+	×3
+	Tu turno
+	Carlos Alonso
+	
+
+Homenaje artístico: Expresionismo oscuro y politico, el cuerpo como territorio, figuras de poder visceral. La bruja del conurbano es resistencia y pertenencia — exactamente el territorio de Alonso.
+Flavor text: "El barrio tiene ojos. Todos suyos."
+Efecto: Ves los Dones de un jugador y podés canjear uno de los tuyos con uno de los suyos. Otro jugador a tu eleccion pierde su proximo turno.
+Prompt Nano Banana:
+Argentine expressionist political painting in the style of Carlos Alonso — dark gestural brushwork, visceral body as political territory, raw intense color, figures of power and resistance, paint that feels like protest. A powerful middle-aged woman from the Buenos Aires conurbano — she wears a worn bata de casa open over dark clothes, hair loose and wild, bare feet on cracked sidewalk. She stands in front of a typical low conurbano brick house at night. Her arms raised, hands crackling with toxic green and deep purple energy that fractures the concrete at her feet. Her body is a weapon and a shelter at once. Her expression is absolute territorial authority. Dominant colors: toxic green, deep violet, raw brick ochre, night black, gestural blood red. Tight portrait composition, face and upper body dominant, vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+08. Pibe de la Terraza
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Rojo #A01821
+	×3
+	Tu turno
+	Daniel Santoro
+	
+
+Homenaje artístico: Mitologia urbana portena, Buenos Aires como territorio sagrado. Santoro eleva lo cotidiano a epica — el pibe en la terraza es el guardian invisible de la ciudad.
+Flavor text: "Desde la terraza, todo se ve, todo se mueve, todo tiene arreglo."
+Efecto: Robas 1 Don al jugador A y se lo das al jugador B. B te da 1 Don del centro como pago.
+Prompt Nano Banana:
+Argentine urban mythological painting in the style of Daniel Santoro — saturated epic palette, Buenos Aires as sacred territory, the everyday elevated to myth, monumental figures with quiet authority. A lean young Argentine man on a Buenos Aires rooftop terrace at night — plain worn remera, worn jeans, old sneakers, arms crossed. CLOSE PORTRAIT SHOT: his face and chest fill the frame, cut off at mid-torso, no legs visible, no feet. His face is lit from below by warm neon and golden city light. Behind him: the Buenos Aires skyline as sacred landscape — water tanks, antennas, the Obelisco, distant neon — the city spread out like a myth he was born knowing. He owns nothing and sees everything. Dominant colors: warm gold, deep red, saturated electric blue, dramatic shadow. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+09. Obelisco Dormido
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Rojo #A01821
+	×3
+	Tu turno
+	Xul Solar
+	
+
+Homenaje artístico: Buenos Aires como cosmos, simbolismo monumental y mistico, geometria sagrada. El Obelisco como entidad cosmica durmiente solo puede ser Xul Solar.
+Flavor text: "No elegis. Transfornas. Sin aviso. Sin vuelta atras."
+Efecto: Intercambias toda tu identidad — Forastero + todos tus Dones — con otro jugador a tu eleccion.
+Prompt Nano Banana:
+Argentine mystic cosmological illustration in the style of Xul Solar — luminous translucent watercolor planes, sacred geometry, Buenos Aires as cosmos, personal symbolic language applied to monumental urban architecture, multiple simultaneous realities layered in glowing color. The Buenos Aires Obelisco as a colossal sleeping cosmic entity — the familiar white obelisk structure, its surface traced with Xul Solar's own geometric symbols and sacred markings, warm gold light pulsing from deep within. A massive serene face — eyes closed, expression of absolute ancient power — emerges from the lower section, half symbol half stone. Extreme low angle looking upward. A cosmic indigo sky behind it, layered with luminous geometric constellations. Dominant colors: luminous indigo, sacred gold, translucent white, geometric violet and amber. Obelisk and face fill the frame, vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+________________
+
+
+5. Mazo de Acción — Faros
+4 faros × 2 copias = 8 cartas · Marco cyan #00B4D8 · Todos en estilo Horacio Butler.
+Artista: Horacio Butler — post-impresionismo argentino, paleta vibrante y calida, cielo expresivo, vegetacion densa con textura, luminoso y contemplativo.
+Nota: Butler fue seleccionado por su capacidad de representar paisajes costeros argentinos con luminosidad. No dark, no melancolia — luz y presencia.
+
+
+01. Faro Punta Medanos
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Cyan #00B4D8
+	×2
+	Tu turno
+	Horacio Butler
+	
+
+Homenaje artístico: Butler captura la soledad luminosa del litoral bonaerense con la textura y el color que este faro metalico sobre las dunas merece.
+Efecto: Un jugador a tu eleccion pierde su proximo turno.
+Prompt Nano Banana:
+Argentine post-impressionist oil painting in the style of Horacio Butler — vibrant warm palette, expressive textured brushwork, luminous Argentine sky, bold saturated color. The Faro Punta Medanos lighthouse: a tall metal lattice skeleton structure with tripod legs, red and white striped, rising alone above dense coastal scrub and tamarisk trees on the Atlantic coast of Buenos Aires province. Pampas grass cortaderas sway in the foreground. The structure is weathered, stoic, solitary. Warm golden afternoon light. The upper third shows only expressive Butler-style sky — deep blue with active white clouds. Dominant colors: warm ochre, deep Atlantic blue, rust red, golden coastal vegetation. No buildings, no urban skyline, natural coastal landscape only. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+02. Faro Querandi
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Cyan #00B4D8
+	×2
+	Tu turno
+	Horacio Butler
+	
+
+Homenaje artístico: Las dunas abiertas y el horizonte infinito de este faro de rayas son territorio natural del Butler contemplativo.
+Efecto: Jugas dos turnos consecutivos. El jugador siguiente pierde su turno.
+Prompt Nano Banana:
+Argentine post-impressionist oil painting in the style of Horacio Butler — vibrant warm palette, expressive textured brushwork, luminous open sky, bold saturated color. The Faro Querandi lighthouse: a tall elegant cylindrical masonry tower with bold black and white horizontal stripes, rising high above the coastal monte. Behind it: open golden sand dunes stretching to the horizon of the Buenos Aires Atlantic coast. Stoic, alone, majestic. Warm light catches the white bands of the tower. The upper third shows only expressive Butler-style sky — vibrant blue with textured white clouds. Dominant colors: stark black and white tower, deep blue sky, golden sand dunes, deep green coastal vegetation. No buildings, no urban skyline. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+03. Faro Claromeco
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Cyan #00B4D8
+	×2
+	Tu turno
+	Horacio Butler
+	
+
+Homenaje artístico: El angulo dramatico desde la base de la duna permite una composicion vertical poderosa — ideal para el efecto de cambio de sentido.
+Efecto: Cambias el sentido de la ronda (horario a antihorario o viceversa).
+Prompt Nano Banana:
+Argentine post-impressionist oil painting in the style of Horacio Butler — vibrant warm palette, expressive textured brushwork, luminous coastal atmosphere, bold saturated color. The Faro Claromeco lighthouse: a cylindrical masonry tower with bold black and white horizontal stripes, seen from a dramatic low angle. A sweeping golden sand dune fills the foreground, rising toward the viewer. Tamarisk trees flank the tower on both sides. The lighthouse rises stoic and alone above the dune landscape. Warm afternoon light. The upper third shows only expressive Butler-style sky — deep blue, textured clouds. Dominant colors: warm golden sand, black and white tower, deep Butler blue sky, green-grey coastal scrub. No buildings, no urban skyline. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+04. Faro Punta Rasa
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Cyan #00B4D8
+	×2
+	Tu turno
+	Horacio Butler
+	
+
+Homenaje artístico: El faro mas solitario de la costa argentina — horizonte infinito en todas las direcciones. La soledad de Butler se vuelve geografica.
+Efecto: Elegis 2 jugadores. Vos elegis que carta de Don entrega cada uno al otro. El intercambio es obligatorio.
+Prompt Nano Banana:
+Argentine post-impressionist oil painting in the style of Horacio Butler — vibrant warm palette, expressive textured brushwork, luminous wide sky, bold saturated color. The Faro Punta Rasa lighthouse: a tall metal lattice skeleton structure rising above a completely flat estuary landscape at the mouth of the Rio de la Plata. Dense trees surround its base. The horizon is infinite in every direction — flat marshland, still water channels, open pampa merging with river. The most solitary lighthouse on the Argentine coast. Warm afternoon light catches the metalwork. The upper third shows only expressive Butler-style sky — vast, luminous, deep blue with active white clouds. Dominant colors: warm golden marsh ochre, deep estuary blue-grey, lush green trees, pale metallic structure. No buildings, no urban skyline. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+________________
+
+
+6. Mazo de Accion — Cartas de Suerte
+3 tipos · Marco amarillo #F5C842 · Estilo ilustracion epica de fantasia al estilo Magic: The Gathering (MTG) — el paisaje o la criatura como protagonista, profundidad atmosferica, luz cinematografica.
+
+
+01. La Salamanca
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Amarillo #F5C842
+	×4
+	Tu turno
+	Sin artista especifico
+	
+
+Homenaje artístico: Estilo MTG epico — ilustracion de fantasia con profundidad atmosferica y luz dramatica. La cueva como puerta al mundo prohibido.
+Flavor text: "Entra si podes. Sal si te dejan."
+Efecto: Tomas todas las cartas que queden en una pila central a tu eleccion (1, 2 o 3 cartas).
+Prompt Nano Banana:
+Epic fantasy landscape illustration, atmospheric depth, dramatic cinematic lighting, detailed painterly environment in the style of Magic The Gathering card art. La Salamanca — a cave entrance carved into an Argentine rocky hillside at night. The cave mouth is a black void — absolute darkness within. From deep inside: a faint, sinister red-green glow barely visible, suggesting something alive and forbidden. Heavy dramatic shadows engulf the hillside. The surrounding landscape is wild and menacing — gnarled twisted trees silhouetted against a stormy dark sky, dry Argentine scrub, jagged rocks. A cold wind moves through. The atmosphere is dread and temptation at once. Dominant colors: deep shadow black, sinister red-green inner glow, stormy dark blue sky, cold moonlight on jagged rocks. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+02. El Supay
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Amarillo #F5C842
+	×2
+	Tu turno
+	Sin artista especifico
+	
+
+Homenaje artístico: Estilo MTG epico — deidad andina precolombina. No el diablo europeo sino algo mas antiguo y soberano. La mascara ceremonial como rostro del inframundo.
+Flavor text: "No negocias con el Supay. El Supay negocia con vos."
+Efecto: Completas un Don entero: tomas sus 3 cartas desde donde esten — pilas centrales y/o otros jugadores.
+Prompt Nano Banana:
+Epic fantasy character portrait illustration in the style of Magic The Gathering card art — detailed, painterly, dramatic lighting, powerful deity presence. El Supay — the Andean god of the underworld, ancient beyond memory, not the European devil but something older and more sovereign. A towering dark figure with pre-Columbian ceremonial garments — deep feathered headdress, dark robes with geometric Andean patterns. He wears a dramatic pre-Columbian ceremonial mask — carved stone or gold, geometric and ancient, with hollow eyes that glow faintly from within. The mask is the face of the underworld itself. He stands in the volcanic underworld, red and amber light rising from below. Steam rises behind him from fissures in the earth. He does not threaten — he simply is. Dominant colors: deep volcanic red, molten amber, obsidian black, cold gold ceremonial mask. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+03. El Nahuelito
+Marco
+	Copias
+	Timing
+	Artista referencia
+	Amarillo #F5C842
+	×1
+	Tu turno
+	Sin artista especifico
+	
+
+Homenaje artístico: Estilo MTG epico — criatura legendaria, antigua, primordial. El Nessie patagonico: plesiosauro con cuello emergido, fondo de lago andino de agua fria.
+Flavor text: "El lago guarda secretos. El Nahuelito los cobra."
+Efecto: Tomas un Don entero (3 cartas) solo de las pilas centrales. Si no hay suficientes, tomas lo que quede.
+Prompt Nano Banana:
+Epic fantasy creature illustration in the style of Magic The Gathering card art — detailed, painterly, dramatic, legendary monster. El Nahuelito — the legendary monster of Lake Nahuel Huapi, Argentina's Loch Ness. A colossal ancient plesiosaur creature — long serpentine neck fully emerged above the water surface, prehistoric head raised high, mouth closed, eyes ancient and calm. Its massive body remains beneath the dark cold lake surface, water cascading from its neck. Freshwater Patagonian lake environment — cold dark water, Andean rocky lake bottom, no coral reefs, no tropical ocean. The Andean mountains and lenga beech forest frame the background at dusk. The creature is enormous — ancient, primordial, undeniable. Not scary — legendary. Dominant colors: deep cold slate blue water, dark teal Patagonian sky, dark forest green mountains, creature in dark grey-green ancient scales. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+________________
+
+
+7. Mazo de Accion — Cartas Especiales
+7.1 El Condor — Reactiva
+Marco verde #39D353 · ×2 copias · Timing especial: puede jugarse en CUALQUIER momento, incluso fuera del turno propio.
+Efecto: Anulas cualquier carta especial que otro jugador acabe de jugar. Robas una nueva carta y seguis normalmente.
+Flavor text: "Donde termina la ley de los hombres, empieza la suya."
+Prompt Nano Banana:
+Hyper-detailed digital painting, cinematic 3D render quality, dramatic subsurface lighting, powerful mythical presence. El Condor — sovereign entity of the Andes, wise and just, ancient and fierce. Seen from a dramatic 65-degree upward angle — the viewer looks up from below as the condor soars overhead, both wings fully spread to their maximum span, dominating the entire frame. The wingspan is enormous — the condor fills the frame with raw weight and authority. Its head turns slightly, one ancient intelligent eye staring directly at the viewer — the eye of a judge, not a predator. Black and white plumage immaculate and commanding, heavy and dense, dark feathers with deep contrast. The sky is a deep Andean cerulean-blue, almost dusk, with thin horizontal wisps of cirrus cloud — not white fluffy cumulus, but long fine streaks layered across the sky like brushstrokes. A full golden moon glows in the upper portion of the frame, partially veiled by one thin cloud band. The overall atmosphere is sovereign and ancient — dusk over the Andes, cold air, massive wingspan. Dominant colors: deep black plumage, deep cerulean blue sky, thin pale cloud wisps, cold golden moonlight, snow-capped peaks below. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+
+
+7.2 El Pombero — Auto
+Marco violeta #7B2FBE · ×1 copia · Timing especial: se juega AUTOMATICAMENTE al robarlo — sin accion del jugador.
+Efecto: Se juega automaticamente al robarlo. Devolvés 2 de tus Dones al centro. Si tenes menos de 2, devolvés todos.
+Flavor text: "No hace falta llamarlo. Ya sabe cuando vas ganando."
+Prompt Nano Banana:
+Hyper-detailed digital painting, cinematic 3D render quality, dramatic subsurface lighting. El Pombero — trickster spirit of the Guarani forest, small and hairy, ancient and unavoidable. Close-up portrait from a low angle, as if the viewer just found him crouching in the shadows — and he found you first. Small humanoid figure, barely 1 meter tall, covered in coarse dark hair, leathery skin catching purple rim light. Wide flat face, enormous round eyes glowing amber-gold in the dark, expression somewhere between mischief and warning — he knows something you don't. Long gnarled fingers reaching slightly toward the viewer. He emerges from deep forest shadow — thick roots, twisted branches, dense humid darkness. A faint violet-purple magical aura traces the edges of his body, barely visible, like static electricity in the night air. Background: deep forest night, near-black with hints of dark purple and deep green shadow, broken only by a sliver of moonlight catching the tops of the trees. Dominant colors: near-black deep shadow, warm amber glowing eyes, purple rim light, dark green forest, coarse dark textured fur. Extreme detail on fur texture and skin. Vertical portrait format, 2:3 aspect ratio, no text, no letters.
+________________
+
+
+8. Mazo de Don — 18 cartas
+6 Dones × 3 ilustraciones cada uno = 18 cartas. Formato cuadrado 1:1. Marco bandera argentina (celeste #75AADB). Tamaño mini — la carta mas pequena del juego.
+Artista de referencia: Roberto Aizenberg — surrealismo figurativo argentino, arquitecturas oniricass, figuras aisladas en espacios vastos, paleta profunda y contenida, precision tecnica, atmosfera mistico-melancolia.
+
+
+Don: Solidaridad  [manos unidas]
+Estilo: Roberto Aizenberg — surrealismo figurativo argentino, arquitecturas oníricas, figuras aisladas en espacios vastos, paleta profunda y contenida.
+Formato: Cuadrado 1:1 · Marco bandera argentina (celeste #75AADB) · Logo Leyendas del Sur en franja inferior
+
+
+Ilustración A:
+Argentine magical realism painting in the style of Roberto Aizenberg. Six silhouetted human figures standing in a circle, hands joined, in a vast empty plain under deep indigo sky. Where their hands meet a warm amber glow pulses outward. Figures reduced to their essential form — architectural, still, dignified. Infinite horizon. Precise brushwork, deep shadow. Palette: deep indigo, warm amber, charcoal, pale earth. Square format, 1:1 ratio, centered composition, no text.
+Ilustración B:
+Argentine magical realism painting in the style of Roberto Aizenberg. Two figures bending down to lift a third from the ground. The hands of the three where they meet glow with warm golden light — the only warm element in an otherwise cold gray landscape. The lifted figure's face is calm, not defeated. Vast empty background, low horizon. Precise detail, heavy shadow. Palette: pale gray, warm gold, deep shadow, earth brown. Square format, 1:1 ratio, centered composition, no text.
+Ilustración C:
+Argentine magical realism painting in the style of Roberto Aizenberg. A long chain of figures passing a single glowing object hand to hand across a vast dark plain — the object travels from one end of the chain to the other, each figure lit briefly by its warm glow as it passes through their hands. The figures at the ends are lost in shadow. The object itself is simple — a sphere of warm amber light. Precise, dreamlike, still. Palette: near-black plain, warm amber glow passing figure to figure, pale indigo sky, deep shadow. Square format, 1:1 ratio, centered composition, no text.
+
+
+Don: Chamuyo  [burbuja de dialogo]
+Estilo: Roberto Aizenberg — surrealismo figurativo argentino, arquitecturas oníricas, figuras aisladas en espacios vastos, paleta profunda y contenida.
+Formato: Cuadrado 1:1 · Marco bandera argentina (celeste #75AADB) · Logo Leyendas del Sur en franja inferior
+
+
+Ilustración A:
+Argentine magical realism painting in the style of Roberto Aizenberg. A single elegant woman, mid-40s, sharp features, leaning forward, mouth open mid-sentence. From her lips flows a thin luminous ribbon that curls through the air transforming into small golden keys, coins, birds. High vaulted ceiling above, bare interior, deep shadow everywhere except the figure and the ribbon. Knowing eyes, precise gesture. Palette: deep umber, gold, pale gray, near-black shadow. Square format, 1:1 ratio, centered composition, no text.
+Ilustración B:
+Argentine magical realism painting in the style of Roberto Aizenberg. Two male figures in profile — one man whispering, one man listening. Between the lips and the ear a thin thread of golden light travels, barely visible, carrying something. The listener's expression shifts from neutral to convinced. Both figures are middle-aged men, precise features, dark clothing. Everything else in deep shadow. Intimate, precise, slightly unsettling. Palette: near-black, warm gold thread, pale skin tones, deep brown shadow. Square format, 1:1 ratio, centered composition, no text.
+Ilustración C:
+Argentine magical realism painting in the style of Roberto Aizenberg. A man leaning close toward a woman, one hand resting lightly on the wall beside her, mouth near her ear. From his lips his words materialize as tiny luminous rose petals and gold stars that drift slowly around her, settling on her shoulders and hair. The woman's expression is somewhere between amused and convinced. Dark Buenos Aires night behind them, a single streetlight above. Dreamlike, intimate, precise. Palette: deep night blue, warm amber streetlight, pale gold petals, near-black shadow. Square format, 1:1 ratio, centered composition, no text.
+
+
+________________
+
+
+Don: Viveza  [cabeza de zorro]
+Estilo: Roberto Aizenberg — surrealismo figurativo argentino, arquitecturas oníricas, figuras aisladas en espacios vastos, paleta profunda y contenida.
+Formato: Cuadrado 1:1 · Marco bandera argentina (celeste #75AADB) · Logo Leyendas del Sur en franja inferior
+
+
+Ilustración A:
+Argentine magical realism painting in the style of Roberto Aizenberg. A grand entrance with a velvet rope and a monumental door, bathed in warm golden light from inside. One figure walks through confidently, posture relaxed, as if they belong completely. Outside, a group of identical figures stand watching, unable to pass, expressions puzzled. The figure entering does not look back. No special outfit, no credential visible — just certainty. Dreamlike architectural precision, high contrast between warm inside light and cold outside shadow. Palette: warm gold interior, cold blue-gray exterior, deep shadow outside, pale velvet rope. Square format, 1:1 ratio, centered composition, no text.
+Ilustración B:
+Argentine magical realism painting in the style of Roberto Aizenberg. Two figures standing slightly apart from a formal scene happening in the background — a meeting, an official table, figures in suits. The two figures speak quietly to each other in the foreground, close together, a knowing look exchanged between them. Between their hands, barely visible, something passes. The real decision is being made here, not at the table. Palette: deep shadow foreground, pale lit background, warm amber between the two figures. Square format, 1:1 ratio, centered composition, no text.
+Ilustración C:
+Argentine magical realism painting in the style of Roberto Aizenberg. Two men in the foreground — one leans close to whisper into the other's ear, lips almost touching it. While he whispers, his other hand passes something small and luminous — a folded bill — into the other man's waiting hand below, discreet and practiced. Both men are middle-aged, dark clothing, expressions calm and complicit. In the background, distant and small, a group of figures waits in an orderly line, completely unaware. Foreground in warm amber light, intimate. Background crowd in cold pale shadow. Palette: warm amber foreground, cold pale background crowd, near-black shadow. Square format, 1:1 ratio, centered composition, no text.
+
+
+Don: Aguante  [corazon solido]
+Estilo: Roberto Aizenberg — surrealismo figurativo argentino, arquitecturas oníricas, figuras aisladas en espacios vastos, paleta profunda y contenida.
+Formato: Cuadrado 1:1 · Marco bandera argentina (celeste #75AADB) · Logo Leyendas del Sur en franja inferior
+
+
+Ilustración A:
+Argentine magical realism painting in the style of Roberto Aizenberg. A solitary figure standing completely still at the center of a violent storm. Wind bends everything around them — trees, rain diagonal, sky churning dark violet — but the figure is perfectly upright, rooted, undisturbed. The ground beneath the figure is dry. Face calm. Palette: deep violet storm, pale still figure, dark churning earth, silver rain light. Square format, 1:1 ratio, centered composition, no text.
+Ilustración B:
+Argentine magical realism painting in the style of Roberto Aizenberg. A man walks forward — on his shoulders, small precise figures of his family: a woman, children, an elderly parent — all asleep, resting, trusting. The man's posture is bent but his step is firm and deliberate, face forward, expression resolved not defeated. The road ahead is long and empty. Deep shadow behind, faint amber light ahead. Palette: deep shadow, warm amber ahead, pale family figures above, dark earth below. Square format, 1:1 ratio, centered composition, no text.
+Ilustración C:
+Argentine magical realism painting in the style of Roberto Aizenberg. A lone figure stands in an enormous empty stadium terrace — arms raised, mouth open in song, scarf held high between both hands. The stadium around them is vast and silent, but from the figure's open mouth and raised scarf, a wave of warm golden light radiates outward, filling the empty stands as if the crowd were already there, invisible but present. The figure sings for all of them. Dreamlike, precise, monumental. Palette: deep stadium gray, warm golden light emanating from figure, pale concrete stands, indigo night sky above. Square format, 1:1 ratio, centered composition, no text.
+
+
+________________
+
+
+Don: Queja  [cara triste expresiva]
+Estilo: Roberto Aizenberg — surrealismo figurativo argentino, arquitecturas oníricas, figuras aisladas en espacios vastos, paleta profunda y contenida.
+Formato: Cuadrado 1:1 · Marco bandera argentina (celeste #75AADB) · Logo Leyendas del Sur en franja inferior
+
+
+Ilustración A:
+Argentine magical realism painting in the style of Roberto Aizenberg. A man stands at an official counter window — the classic government office, bank, utility company. He leans forward, one hand flat on the counter, the other holding a thick stack of papers and forms. His mouth is open mid-complaint, expression firm and righteous, not angry — certain. Behind the window, an empty chair. Nobody is listening, but the man speaks anyway, his voice visible as a thin stream of light pushing against the glass. The papers in his hand glow faintly — evidence, proof, persistence. Dreamlike interior, fluorescent light above, deep shadow behind. Palette: cold institutional gray, pale fluorescent light, warm amber papers, deep shadow. Square format, 1:1 ratio, centered composition, no text.
+Ilustración B:
+Argentine magical realism painting in the style of Roberto Aizenberg. A line of children and teenagers in white school uniforms — guardapolvos blancos — stand facing a wall of dark armored riot police figures twice their size. The students are small, still, arms linked. The white of their uniforms is the brightest element in the entire composition — luminous, almost sacred against the dark mass of the police line. No violence, no movement — just the confrontation of two forces, the fragile and the imposing, facing each other in absolute stillness. The ground between them is empty. Dreamlike, precise, deeply Argentine. Palette: luminous white guardapolvos, near-black armored mass, cold gray ground between them, indigo sky above. Square format, 1:1 ratio, centered composition, no text.
+Ilustración C:
+Argentine magical realism painting in the style of Roberto Aizenberg. A small figure stands before a vast official building — monumental, indifferent. The figure has hands raised, voice open. From the figure's open mouth, cracks spread across the building's facade like a spiderweb — barely visible, but spreading. The building does not know yet. Extreme scale contrast, dreamlike precision. Palette: deep stone gray, pale figure, indigo sky, hairline crack lines. Square format, 1:1 ratio, centered composition, no text.
+
+
+Don: Asador  [parrilla con humo]
+Estilo: Roberto Aizenberg — surrealismo figurativo argentino, arquitecturas oníricas, figuras aisladas en espacios vastos, paleta profunda y contenida.
+Formato: Cuadrado 1:1 · Marco bandera argentina (celeste #75AADB) · Logo Leyendas del Sur en franja inferior
+
+
+Ilustración A:
+Argentine magical realism painting in the style of Roberto Aizenberg. A lone figure standing before a fire in an infinite pampa night — the asador as ritual priest. Fire the only light source, casting long orange shadows across dark ground. Around the fire barely visible outlines of others waiting in shadow. The figure holds the long iron tools with calm absolute authority. Stars above, flat horizon. Palette: deep orange fire, near-black pampa, pale star points, warm ember red. Square format, 1:1 ratio, centered composition, no text.
+Ilustración B:
+Argentine magical realism painting in the style of Roberto Aizenberg. The fire as central subject — not the person. Long iron asado tools crossed before the flames like an altar or a coat of arms. The fire precise and architectural, contained, sacred. No human figure visible, only the tools and the fire and the deep night behind. Palette: deep orange and amber fire, near-black shadow, cold iron gray, pale ash below. Square format, 1:1 ratio, centered composition, no text.
+Ilustración C:
+Argentine magical realism painting in the style of Roberto Aizenberg. Extreme close-up of two weathered hands turning the asado — aged, strong, certain hands. Above the hands, partially visible, two eyes reflecting the fire — calm, sovereign, knowing. The fire fills the lower frame with orange light. Everything above the eyes in deep shadow. Palette: warm orange fire light, near-black above, deep skin tone, ember red and gold. Square format, 1:1 ratio, centered composition, no text.
+
+
+________________
+
+
+9. Dorsos de cartas
+9.1 Dorso — Cartas de Accion
+Compartido por: Personajes de la Ciudad, Faros, Suerte, El Condor y El Pombero.
+Estetica: Cuero envejecido oscuro con detalles en plata argentum (no dorado). La plata es una referencia directa a Argentum — el metal que dio nombre al pais.
+Elementos: Logo LEYENDAS DEL SUR en plateado · Sol de Mayo en plateado en el banner central · Marco ornamental con patrones geometricos en plateado · Sin texto adicional
+Colores: Fondo cuero oscuro warm umber · Todos los detalles metalicos en plata fria #C0C0C0-#D4D4D4
+
+
+Prompt Nano Banana:
+Card back design, vintage aged aesthetic, vertical portrait format 2:3. Dark weathered leather and aged parchment texture background — deep brown, almost black at the edges, warm dark umber at center. Ornate geometric border framing the entire card — thin precise lines with indigenous Argentine geometric patterns at the four corners, all in polished silver argentum metal, cold and noble. Centered in the upper half: large bold serif display lettering spelling LEYENDAS DEL SUR — "DEL" smaller between the two large words — all rendered in polished silver argentum with subtle metallic sheen, not gold, cold silver. Centered in the lower half: a horizontal decorative banner in silver, containing a Sol de Mayo at its center — the sun rendered in detailed silver argentum, rays precise and radiating, face noble and sovereign. Small ornamental dividers on each side of the sol within the banner. The entire design is silver on dark — argentum, the metal that named a nation. No gold anywhere. Aged, noble, precise. Vertical portrait format, 2:3 ratio, no readable text, graphic design style.
+
+
+9.2 Dorso — Cartas de Don
+Exclusivo del mazo de Don. Permite distinguir visualmente los dos mazos al mezclarlos o apilarlos.
+Estetica: Similar al dorso de accion pero fondo de cuero mas claro — beige / ivory / pergamino calido. Los 6 iconos de Don en el centro sobre tiles crimson.
+Elementos: Logo LEYENDAS DEL SUR en plateado (mas pequeno) · 6 iconos de Don en 2 filas de 3 sobre tiles #8B1C1C · Marco ornamental plateado · Fondo claro
+
+
+Prompt Nano Banana:
+Card back design, vintage aged aesthetic, square format 1:1. Warm aged parchment and light leather texture background — pale beige, ivory, warm tan at center, slightly darker at edges but overall much lighter than the action card back. Ornate geometric border framing the entire card — thin precise lines with indigenous Argentine geometric patterns at the four corners, all in polished silver argentum metal, cold and noble. Centered at top: LEYENDAS DEL SUR in silver argentum serif lettering, smaller than the action card version. Centered in the middle of the card: six small square icons arranged in two rows of three — each icon set in a dark crimson square tile with rounded corners, silver argentum border around each tile. The six icons represent: hands held up (Solidaridad), speech bubble (Chamuyo), fox face (Viveza), solid heart (Aguante), sad expressive face (Queja), grill with smoke (Asador). Icons precise, symbolic, clear. Below the icons: a thin silver ornamental divider. The overall palette is warm ivory parchment background with silver argentum details and dark crimson icon tiles. Square format, 1:1 ratio, no readable text, graphic design style.
+________________
+
+
+10. Logo y activos de marca
+10.1 Tratamiento del logo — Plata Argentum
+El logo de Leyendas del Sur existe como tipografia. El tratamiento de plata argentum le aplica una textura de metal frio y noble.
+Referencia: Argentum = plata en latin — el metal que dio nombre a Argentina. El logo en plata es una firma de identidad nacional.
+Color base del logo: Gris neutro / blanco — listo para recibir textura metalica
+
+
+Prompt Nano Banana (subir logo como imagen de referencia, influencia alta 0.75-0.85):
+Apply polished silver argentum metallic texture to this logo, preserving the exact typography and layout. The letters LEYENDAS DEL SUR must remain identical in shape and position — only the material changes. The letters appear cast or forged in solid silver argentum — cold, noble, precious metal with subtle light reflections across the curved surfaces of each letter. The silver has depth: slightly brighter on the top curves, cooler in the recesses, a faint mirror-like sheen overall. Not gold, not chrome — argentum silver, the metal that named a nation. White or transparent background. No new elements added, no changes to letterforms, texture and material only.
+Nota de produccion: en Nano Banana subir el logo como imagen de referencia (img2img) y configurar la influencia de la imagen en ALTO (0.75 - 0.85) para que respete las formas exactas. Si la influencia es baja, regenerara el texto desde cero.
+________________
+
+
+11. Notas de produccion — Nano Banana
+
+
+Parametro
+	Indicacion
+	Ratio cartas de accion
+	Siempre 2:3 portrait (vertical)
+	Ratio cartas de Don
+	Siempre 1:1 cuadrado
+	Texto en la imagen
+	Si aparece texto: agregar 'no readable text, no words' al final del prompt
+	Cara demasiado oscura
+	Agregar 'face clearly lit, visible features' al final del prompt
+	Referencia de artista
+	Subir una imagen del artista como style reference antes de generar — mejora la fidelidad al estilo
+	Seed
+	Intentar mantener el mismo seed entre variaciones del mismo personaje para coherencia interna
+	Logo con textura
+	Usar img2img con influencia alta (0.75-0.85) para preservar las formas del logo original
+	
+
+Leyendas del Sur · Refugio del Sur MVP v1.0 · 2026
+Leyendas del Sur · Refugio del Sur MVP v1.0 · Pág.
