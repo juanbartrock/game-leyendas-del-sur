@@ -12,10 +12,10 @@ created: 2026-05-30
 
 ---
 
-### Subcarpetas / notas sugeridas
+### Notas disponibles
 
+- [[comfyui-nodos-fal]] — Catálogo completo de nodos fal.ai instalados en ComfyUI, con descripción y cuándo usar cada uno
 - [[10-aprendizaje/godot-basics|Godot Basics]] — señales, escenas, nodos, GDScript
-- [[10-aprendizaje/comfyui-workflows|Workflows de ComfyUI]] — pipelines de generación
 - [[10-aprendizaje/game-design-concepts|Conceptos de Game Design]] — MDA, dinámicas, loops
 - [[10-aprendizaje/godot-shaders|Shaders en Godot]] — apuntes de shaders
 - [[10-aprendizaje/herramientas-setup|Setup de herramientas]] — instalación, configuración
