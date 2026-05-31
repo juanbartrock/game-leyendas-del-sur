@@ -44,7 +44,7 @@ Animaciones planeadas (post-BG):
 Script `main_menu.gd` reducido a navegación por teclado.
 Layout 100% en el editor, sin construcción programática.
 
-### 🔲 S2 — Generación del BG con ComfyUI
+### ✅ S2 — Generación del BG con ComfyUI
 **La tarea más importante y creativa.**
 
 Generar una imagen 1920×1080 con los Forasteros en composición épica.
@@ -66,6 +66,10 @@ Generar una imagen 1920×1080 con los Forasteros en composición épica.
 **Alternativa si ComfyUI no da el resultado esperado:**
 - Gemini / AI Studio (suscripción disponible) para variantes
 - Nano Banana 2 para iteraciones rápidas de concepto
+
+**Resultado:** `assets/art/ui/mainmenu_bg_draft.png` — aprobado como base.
+Workflow final: `lds-mainmenu-bg-multi` (FluxProKontextMulti con v2+v3 como referencias).
+Personajes genéricos por ahora — se reemplazarán con LoRA de Forasteros en sprint futuro.
 
 **Criterio de aprobación:**
 - Los Forasteros son reconocibles
