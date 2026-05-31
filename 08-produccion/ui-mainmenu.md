@@ -77,17 +77,19 @@ Personajes genéricos por ahora — se reemplazarán con LoRA de Forasteros en s
 - Atmósfera oscura y épica, paleta respetada
 - Se ve bien a 1920×1080
 
-### 🔲 S3 — Layout en Godot sobre el BG
-Una vez aprobado el BG, armar en el editor:
-- TextureRect BG full rect
-- Logo (tipografía o imagen si lo genera la IA con el logo integrado)
-- VBoxContainer con las 3 opciones de menú
-- Label versión
+### ✅ S3 — Layout en Godot sobre el BG
+- TextureRect BG full rect con `mainmenu_bg_draft.png`
+- Logo Label con FONT_DISPLAY 72px (PinyonScript)
+- Subtítulo "La Argentina Mítica" con FONT_SERIF_I
+- VBoxContainer con JUGAR / OPCIONES / SALIR
+- Version label esquina inferior izquierda
 
-### 🔲 S4 — Conectar script a los nodos (@onready)
-- `_menu_labels` apuntando a los Labels del VBoxContainer
-- Navegación con teclado funcional
-- `_select_item()` conectado
+### ✅ S4 — Conectar script a los nodos (@onready)
+- `@onready` para Logo, Subtitle, Version
+- `_menu_labels` poblado desde `$Menu/LabelJugar` etc. en `_ready()`
+- `_apply_fonts()` llama `LDSTheme.apply_font()` para cada nodo
+- Navegación teclado arriba/abajo funcional
+- Primer ítem resaltado en dorado al cargar
 
 ### 🔲 S5 — Animaciones
 - AnimationPlayer o Tween para fade in del logo
